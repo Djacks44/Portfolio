@@ -13,6 +13,10 @@ header {
 	padding-top: 5px;
 	margin-bottom: 20px;
 }
+a {
+   color:#777777;
+  text-decoration: none; /* no underline */
+}
 #APC {
   float: right;
   border: transparent;
@@ -21,6 +25,7 @@ header {
   color:#777777;
   font-family: serif;
   font-size: 18px;
+  text-decoration: none;
 }
 #Name {
     background-color:#4aaaa5;
