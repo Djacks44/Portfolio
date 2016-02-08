@@ -5,7 +5,7 @@
 body {
 	font-size: 24px;
 	line-height: 32px;
-	background-image:url(file:///Users/D/Downloads/concrete_seamless%202/concrete_seamless.png);
+	background-image: url("Portfolio/assets/images/concrete_seamless.png");
     border: transparent;
 }
 header {
