@@ -44,34 +44,6 @@ section {
 	padding: 20px;
 	margin-bottom: 20px;
 }
-#left {
-	float: left;
-	width: 33.3%;
-	background: #666;
-	color: #fff;
-}
-#middle {
-	float: left;
-	width: 33.3%;
-	background: #888;
-	color: #fff;
-}
-#right {
-	float: left;
-	width: 33.3%;
-	background: #666;
-	color: #fff;
-}
-#full {
-	clear: both;
-	width: 100%;
-	overflow: auto;
-}
-#division {
-
-	padding: 20px;
-	margin-top: 20px;
-}
 aside {
 	float: left;
 	width: 57%;
@@ -167,4 +139,189 @@ footer {
 	border-color: #4aaaa5;
 	border-width: 5px;
 
+}
+@media only screen and (max-width: 980px){
+	body {
+	font-size: 24px;
+	line-height: 32px;
+	background-image: url("Portfolio/assets/images/concrete_seamless.png");
+    border: transparent;
+    width: 980px;
+}
+#APC {
+  float: right;
+  border: transparent;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-right: 5px;
+  color:#777777;
+  margin: 20px;
+  font-family: serif;
+  font-size: 18px;
+}
+	#AboutPic {
+  	border: transparent;
+  	margin-top: 10px;
+  	margin-left: 100px;
+  	margin-right: 130px;
+   
+}
+	aside {
+	float: left;
+	width: 50%;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 700px;
+	background: #fff;
+	border: 1px solid #eee;
+	border: ridge;
+	color: #4aaaa5;
+}
+	aside2 {
+	float: left;
+	width: 25%;
+	margin-left: 20px;
+	padding: 20px;
+	height: 170px;
+	background: white;
+	border: 1px solid #eee;
+	border: ridge;
+	font-family: Times;
+	color: #4aaaa5;
+	font-weight: bold;
+
+}
+@media only screen and (max-width: 768px){
+	body {
+	font-size: 24px;
+	line-height: 32px;
+	background-image: url("Portfolio/assets/images/concrete_seamless.png");
+    border: transparent;
+    width: 768px;
+}
+#AboutPic {
+  border: transparent;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#Name {
+    background-color:#4aaaa5;
+    color: white;
+    text-align:center;
+    padding-top: 10px;
+    border: solid;
+    border-color: #4aaaa5;
+    width: 20%;
+    height: 85px;
+    font-family: serif;
+    font-size: 22px;
+    margin-left: 122px;
+  }
+	aside {
+	float: left;
+	width: 85%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 500px;
+	background: #fff;
+	border: 1px solid #eee;
+	border: ridge;
+	color: #4aaaa5;
+}
+	aside2 {
+	float: left;
+	width: 85%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 170px;
+	background: white;
+	border: 1px solid #eee;
+	border: ridge;
+	font-family: Times;
+	color: #4aaaa5;
+	font-weight: bold;
+
+}
+@media only screen and (max-width: 640px){
+	body {
+	font-size: 24px;
+	line-height: 32px;
+	background-image: url("Portfolio/assets/images/concrete_seamless.png");
+    border: transparent;
+    width: 640px;
+}
+header {
+	background-color:#4aaaa5;
+	position:static;
+	width: 100%;
+	height: 100px;
+}
+a {
+   color:#777777;
+  text-decoration: none; /* no underline */
+}
+#APC {
+	float: left;
+  border: solid;
+  padding-right: 20px;
+  padding-top: 20px;
+  color:white;
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 70px;
+  width: 100%;
+  background-color: white;
+}
+#Name {
+    background-color:#4aaaa5;
+    border-color:#4aaaa5;
+    color: white;
+    text-align:center;
+    width: 380px;
+    height: 70px;
+    font-family: serif;
+    font-size: 30px;
+    position: absolute;
+    float: left;
+
+  }
+  #AboutPic {
+  	border: transparent;
+  	margin-top: 10px;
+  	margin-left: 150px;
+  	margin-right: 150px;
+   
+}
+	aside {
+	float: left;
+	width: 85%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 700px;
+	background: #fff;
+	border: 1px solid #eee;
+	border: ridge;
+	color: #4aaaa5;
+}
+	aside2 {
+	float: left;
+	width: 85%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 170px;
+	background: white;
+	border: 1px solid #eee;
+	border: ridge;
+	font-family: Times;
+	color: #4aaaa5;
+	font-weight: bold;
+
+}
 }
